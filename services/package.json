@@ -1,0 +1,18 @@
+{
+  "name": "api-crud-node-express-with-firebase",
+  "version": "1.0.0",
+  "description": "```powershell\r npm init\r ```",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "firebase": "^10.9.0",
+    "firebase-admin": "^12.0.0",
+    "uuid": "^9.0.1"
+  }
+}
