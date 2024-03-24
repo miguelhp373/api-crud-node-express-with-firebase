@@ -87,4 +87,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 
-Certifique-se de substituir os valores de `YOUR_API_KEY`, `YOUR_AUTH_DOMAIN`, `YOUR_PROJECT_ID`, `YOUR_STORAGE_BUCKET`, `YOUR_MESSAGING_SENDER_ID` e `YOUR_APP_ID` com suas credenciais reais do Firebase. Este README fornece instruções claras sobre como configurar e iniciar o projeto, bem como informações sobre os scripts disponíveis, dependências e licença.
+Make sure to replace the values for `YOUR_API_KEY`, `YOUR_AUTH_DOMAIN`, `YOUR_PROJECT_ID`, `YOUR_STORAGE_BUCKET`, `YOUR_MESSAGING_SENDER_ID`, and `YOUR_APP_ID` with your actual Firebase credentials. This README provides clear instructions on how to configure and start the project, as well as information about available scripts, dependencies, and licensing.
