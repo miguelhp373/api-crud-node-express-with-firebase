@@ -1,5 +1,5 @@
-const { Router } = require('express');
-const { bookscontroller } = require('../controllers/books_controller');
+import { Router, Request, Response } from "express";
+const { bookscontroller } = require("../controllers/books_controller");
 
 const cors = require('cors');
 const router = Router();
@@ -18,9 +18,14 @@ router.use(
     router.get('/', bookscontroller.getAllBooks),
     router.get('/:id', bookscontroller.getBookById),    
     router.post('/', bookscontroller.createNewBook),
-    router.patch('/:id', bookscontroller.updateBook),
+    router.put('/:id', bookscontroller.updateBook),
     router.delete('/:id', bookscontroller.deleteBook),
 )
+
+router.use((req : Request, res : Response)=>{
+  res.status(404).json({error : "Path Not Found, Try Again!"})
+});
+
 
 
 
